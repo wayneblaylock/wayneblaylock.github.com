@@ -1,6 +1,23 @@
+<<<<<<< HEAD
 
 
 .table-hover>tbody>tr:hover{
     background-color: cadetblue;
     color: white;
 }
+=======
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+     text-align: center;
+}
+>>>>>>> parent of ddee94a... update to clown style
