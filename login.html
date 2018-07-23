@@ -24,7 +24,6 @@
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
-            
         }
 
         html {
@@ -117,26 +116,35 @@
                 display: block;
             }
         }
-
-        .text-forground {
-            background-color: rgba(210, 180, 140, 0.6);
-            height: 300px;
-            margin: 30px;
-            margin-top: 70px;
-        }
-        
-        .text {
+        .boxColor {
             display: flex;
-            justify-content: center;
-            align-items: center;
+            flex-direction: column;
+            background-color: rgba(210, 180, 140, 0.6);
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-top: 15px;
+            height: 575px;
+            margin: 30px;
         }
-
+        .email {
+            font-size: 12px;
+        }
+        .pass {
+            padding-top: 5px;
+            font-size: 12px;
+        }
+        .sign {
+            font-size: 18px;
+        }
+        .btn {
+            margin-top: 12px;
+        }
     </style>
 </head>
 
 <body>
     <div class="heading" background="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3WHXvFNn6cB5-qDj0WYmamYhKJ9Ums27u-9EYtq5b0LpQxVj4">
-        <h1>Man &#160; Card</h1>
+        <h1>Man &#160 Card</h1>
     </div>
     <div class="navbar">
         <a href="#" class="toggle" id="navHamburger">
@@ -144,7 +152,7 @@
         </a>
 
 
-      <div class="left">
+       <div class="left">
             <a href="index.html#" class="link">Home</a>
             <a href="story.html" class="link">Story</a>
             <a href="challenge.html" class="link">Challenge</a>
@@ -153,14 +161,25 @@
         </div>
 
     </div>
-        <div class="text-forground">
-            <div class="text">
-                <h1>example 1</h1>
-            </div>
-            <div class="text">
-                <p>example 2</p>
-            </div>
+    <div class="boxColor">
+        <div class="sign">
+            <p>Sign in</p>
         </div>
+        <div class="email">
+            <p>Enter Username or Email</p>
+            <input type="text" placeholder="Username" required>
+        </div>
+        <div class="pass">
+            <p>Enter Password</p>
+            <input type="text" placeholder="Password" required>
+        </div>
+        <div class="btn">
+            <input type="button" required>
+            <content>
+                <span>Login</span>
+            </content>
+        </div>
+    </div>
 </body>
 
 <script>

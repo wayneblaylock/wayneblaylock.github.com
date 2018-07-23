@@ -2,10 +2,10 @@
 <html lang="en">
 
 <head>
+    <title>Man Card</title>
     <meta charset="UTF-8">
     <title></title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Oxygen" rel="stylesheet">
     <style>
@@ -24,7 +24,6 @@
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
-            
         }
 
         html {
@@ -118,17 +117,31 @@
             }
         }
 
-        .text-forground {
-            background-color: rgba(210, 180, 140, 0.6);
-            height: 300px;
-            margin: 30px;
-            margin-top: 70px;
-        }
-        
         .text {
             display: flex;
             justify-content: center;
             align-items: center;
+        }
+
+        .text-forground {
+            background-color: rgba(210, 180, 140, 0.6);
+            height: 150px;
+            margin: 30px;
+            margin-top: 70px;
+
+        }
+
+        .p-forground {
+            background-color: rgba(210, 180, 140, 0.6);
+            height: 500px;
+            margin: 30px;
+           
+
+        }
+        .p{
+              display: flex;
+            justify-content: center;
+            align-content: center;
         }
 
     </style>
@@ -136,7 +149,7 @@
 
 <body>
     <div class="heading" background="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3WHXvFNn6cB5-qDj0WYmamYhKJ9Ums27u-9EYtq5b0LpQxVj4">
-        <h1>Man &#160; Card</h1>
+        <h1>Man &#160 Card</h1>
     </div>
     <div class="navbar">
         <a href="#" class="toggle" id="navHamburger">
@@ -144,7 +157,7 @@
         </a>
 
 
-      <div class="left">
+       <div class="left">
             <a href="index.html#" class="link">Home</a>
             <a href="story.html" class="link">Story</a>
             <a href="challenge.html" class="link">Challenge</a>
@@ -153,14 +166,31 @@
         </div>
 
     </div>
-        <div class="text-forground">
-            <div class="text">
-                <h1>example 1</h1>
-            </div>
-            <div class="text">
-                <p>example 2</p>
-            </div>
+    <div class="text-forground">
+        <div class="text">
+            <h1>Daily Challenge!!!</h1>
         </div>
+        <div class="text">
+            <p>Learn to blast a loud two finger whistl</p>
+        </div>
+    </div>
+    <div class="p-forground">
+        <div class="p">
+            <h2>Outher Challenges</h2>
+        </div>
+        <div class="p"> <ul>
+            <li>grow a mustach</li>
+            <li>grow a beard</li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </div>
+        </ul>
+
+    </div>
 </body>
 
 <script>
@@ -169,7 +199,9 @@
     navHamburger.addEventListener('click', (e) => {
         navHamburger.parentElement.classList.toggle('active');
     })
+
 </script>
+
 </body>
 
 </html>
